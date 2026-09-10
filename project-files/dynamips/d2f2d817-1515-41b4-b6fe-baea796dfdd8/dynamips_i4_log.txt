@@ -1,0 +1,6 @@
+Sep 10 09:41:42.908 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 10 09:41:42.909 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 23098.
+Sep 10 09:41:42.909 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 10 09:41:42.909 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\Repositories\proyecto_atr\project-files\dynamips 
+Sep 10 09:41:42.909 GENERAL: working_dir=C:\Users\serap\Repositories\proyecto_atr\project-files\dynamips
+Sep 10 09:41:42.909 HYPERVISOR: exec_cmd: ethsw create Switch2 
