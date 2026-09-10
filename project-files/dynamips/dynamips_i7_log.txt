@@ -1,0 +1,27 @@
+Sep 10 09:41:44.124 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 10 09:41:44.124 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 23107.
+Sep 10 09:41:44.638 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 10 09:41:44.638 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\Repositories\proyecto_atr\project-files\dynamips 
+Sep 10 09:41:44.638 GENERAL: working_dir=C:\Users\serap\Repositories\proyecto_atr\project-files\dynamips
+Sep 10 09:41:44.638 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\Repositories\proyecto_atr\project-files\dynamips\1d42f013-7a9e-4056-b56a-9791a2e6d8e4 
+Sep 10 09:41:44.641 GENERAL: working_dir=C:\Users\serap\Repositories\proyecto_atr\project-files\dynamips\1d42f013-7a9e-4056-b56a-9791a2e6d8e4
+Sep 10 09:41:44.641 HYPERVISOR: exec_cmd: vm create CPE3 5 c3745 
+Sep 10 09:41:44.641 VM: VM CPE3 created.
+Sep 10 09:41:44.641 HYPERVISOR: exec_cmd: vm set_con_tcp_port CPE3 5006 
+Sep 10 09:41:44.641 HYPERVISOR: exec_cmd: c3745 get_mac_addr CPE3 
+Sep 10 09:41:44.641 HYPERVISOR: exec_cmd: vm set_disk0 CPE3 4 
+Sep 10 09:41:44.641 HYPERVISOR: exec_cmd: vm set_exec_area CPE3 64 
+Sep 10 09:41:44.641 HYPERVISOR: exec_cmd: vm get_status CPE3 
+Sep 10 09:41:44.641 HYPERVISOR: exec_cmd: vm set_idle_pc CPE3 0x60aa1da0 
+Sep 10 09:41:44.641 HYPERVISOR: exec_cmd: vm set_ios CPE3 C:/Users/serap/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Sep 10 09:41:44.641 HYPERVISOR: exec_cmd: c3745 set_mac_addr CPE3 c405.4e48.0000 
+Sep 10 09:41:44.641 HYPERVISOR: exec_cmd: vm set_nvram CPE3 256 
+Sep 10 09:41:44.641 HYPERVISOR: exec_cmd: vm set_ram CPE3 192 
+Sep 10 09:41:44.641 HYPERVISOR: exec_cmd: vm get_status CPE3 
+Sep 10 09:41:44.641 HYPERVISOR: exec_cmd: vm slot_add_binding CPE3 1 0 NM-16ESW 
+Sep 10 09:41:46.024 HYPERVISOR: exec_cmd: nio create_udp udp-461af3ed-4147-4d08-8521-3cbd2fa569bb 10018 127.0.0.1 10019 
+Sep 10 09:41:46.295 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE3 0 0 udp-461af3ed-4147-4d08-8521-3cbd2fa569bb 
+Sep 10 09:41:46.295 HYPERVISOR: exec_cmd: vm get_status CPE3 
+Sep 10 09:41:46.390 HYPERVISOR: exec_cmd: nio create_udp udp-f8f95b6e-f7a8-44d8-b926-f52d1755e4f0 10030 127.0.0.1 10031 
+Sep 10 09:41:46.390 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE3 0 1 udp-f8f95b6e-f7a8-44d8-b926-f52d1755e4f0 
+Sep 10 09:41:46.390 HYPERVISOR: exec_cmd: vm get_status CPE3 

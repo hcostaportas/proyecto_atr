@@ -4,3 +4,9 @@ Sep 10 09:41:42.846 HYPERVISOR: exec_cmd: hypervisor version
 Sep 10 09:41:42.846 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\Repositories\proyecto_atr\project-files\dynamips 
 Sep 10 09:41:42.848 GENERAL: working_dir=C:\Users\serap\Repositories\proyecto_atr\project-files\dynamips
 Sep 10 09:41:42.848 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Sep 10 09:41:44.963 HYPERVISOR: exec_cmd: nio create_udp udp-f60408f4-6ced-4aef-b7eb-65913f514ca5 10001 127.0.0.1 10000 
+Sep 10 09:41:44.963 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-f60408f4-6ced-4aef-b7eb-65913f514ca5 
+Sep 10 09:41:44.990 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-f60408f4-6ced-4aef-b7eb-65913f514ca5 1 
+Sep 10 09:41:45.351 HYPERVISOR: exec_cmd: nio create_udp udp-e44eff42-3535-4197-b392-1fe59c94dffb 10008 127.0.0.1 10009 
+Sep 10 09:41:45.351 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-e44eff42-3535-4197-b392-1fe59c94dffb 
+Sep 10 09:41:45.370 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-e44eff42-3535-4197-b392-1fe59c94dffb 1 

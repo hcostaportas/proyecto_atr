@@ -1,0 +1,24 @@
+Sep 10 09:41:41.376 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 10 09:41:41.376 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 23089.
+Sep 10 09:41:41.680 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 10 09:41:41.680 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\Repositories\proyecto_atr\project-files\dynamips 
+Sep 10 09:41:41.680 GENERAL: working_dir=C:\Users\serap\Repositories\proyecto_atr\project-files\dynamips
+Sep 10 09:41:41.680 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\Repositories\proyecto_atr\project-files\dynamips\496e6711-5e83-4201-a671-ceb80b816dea 
+Sep 10 09:41:41.680 GENERAL: working_dir=C:\Users\serap\Repositories\proyecto_atr\project-files\dynamips\496e6711-5e83-4201-a671-ceb80b816dea
+Sep 10 09:41:41.680 HYPERVISOR: exec_cmd: vm create PE1 1 c3745 
+Sep 10 09:41:41.680 VM: VM PE1 created.
+Sep 10 09:41:41.680 HYPERVISOR: exec_cmd: vm set_con_tcp_port PE1 5000 
+Sep 10 09:41:41.680 HYPERVISOR: exec_cmd: c3745 get_mac_addr PE1 
+Sep 10 09:41:41.680 HYPERVISOR: exec_cmd: vm set_disk0 PE1 4 
+Sep 10 09:41:41.680 HYPERVISOR: exec_cmd: vm set_exec_area PE1 64 
+Sep 10 09:41:41.680 HYPERVISOR: exec_cmd: vm get_status PE1 
+Sep 10 09:41:41.680 HYPERVISOR: exec_cmd: vm set_idle_pc PE1 0x60aa1da0 
+Sep 10 09:41:41.680 HYPERVISOR: exec_cmd: vm set_ios PE1 C:/Users/serap/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Sep 10 09:41:41.680 HYPERVISOR: exec_cmd: c3745 set_mac_addr PE1 c401.5e14.0000 
+Sep 10 09:41:41.680 HYPERVISOR: exec_cmd: vm set_nvram PE1 256 
+Sep 10 09:41:41.680 HYPERVISOR: exec_cmd: vm set_ram PE1 192 
+Sep 10 09:41:41.680 HYPERVISOR: exec_cmd: vm get_status PE1 
+Sep 10 09:41:41.680 HYPERVISOR: exec_cmd: vm slot_add_binding PE1 1 0 NM-16ESW 
+Sep 10 09:41:44.690 HYPERVISOR: exec_cmd: nio create_udp udp-ee19bfc6-24bc-49e9-869b-26d2b876e98a 10002 127.0.0.1 10003 
+Sep 10 09:41:44.959 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE1 0 0 udp-ee19bfc6-24bc-49e9-869b-26d2b876e98a 
+Sep 10 09:41:44.959 HYPERVISOR: exec_cmd: vm get_status PE1 
