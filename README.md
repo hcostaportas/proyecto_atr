@@ -4,3 +4,7 @@
 
 
 Tarea 1: Creación de maqueta inicial, configuración de IPs y protocolos básicos (NAT, OSPF)
+  Héctor(10/09/2026) --> Maqueta inicial
+  LucíaCid
+  Hugo
+  LucíaCastrillo
