@@ -1,4 +1,4 @@
-#Proyecto de red
+# Proyecto de red
 
 >La práctica de las clases tipo C consiste en el desarrollo de una maqueta de red particular.
 
