@@ -19,3 +19,9 @@ Sep 10 09:41:43.493 HYPERVISOR: exec_cmd: vm set_nvram CPE1 256
 Sep 10 09:41:43.493 HYPERVISOR: exec_cmd: vm set_ram CPE1 192 
 Sep 10 09:41:43.493 HYPERVISOR: exec_cmd: vm get_status CPE1 
 Sep 10 09:41:43.493 HYPERVISOR: exec_cmd: vm slot_add_binding CPE1 1 0 NM-16ESW 
+Sep 10 09:41:45.370 HYPERVISOR: exec_cmd: nio create_udp udp-39c6c402-bcf7-499a-b13c-c65a27e7f2d9 10010 127.0.0.1 10011 
+Sep 10 09:41:45.646 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE1 0 0 udp-39c6c402-bcf7-499a-b13c-c65a27e7f2d9 
+Sep 10 09:41:45.646 HYPERVISOR: exec_cmd: vm get_status CPE1 
+Sep 10 09:41:46.320 HYPERVISOR: exec_cmd: nio create_udp udp-01e81d3e-cfea-4c0b-80d8-f5edf7422b60 10022 127.0.0.1 10023 
+Sep 10 09:41:46.327 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE1 0 1 udp-01e81d3e-cfea-4c0b-80d8-f5edf7422b60 
+Sep 10 09:41:46.327 HYPERVISOR: exec_cmd: vm get_status CPE1 
