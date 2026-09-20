@@ -1,0 +1,34 @@
+2026-09-20T08:29:07.576Z HYPERVISOR: Release 0.2.25-amd64/Linux (tag 2023010200)
+2026-09-20T08:29:07.576Z HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60801.
+2026-09-20T08:29:07.581Z HYPERVISOR: exec_cmd: hypervisor version 
+2026-09-20T08:29:07.581Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/lu/GNS3/projects/ATR/proyecto_atr/project-files/dynamips 
+2026-09-20T08:29:07.581Z GENERAL: working_dir=/home/lu/GNS3/projects/ATR/proyecto_atr/project-files/dynamips
+2026-09-20T08:29:07.581Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/lu/GNS3/projects/ATR/proyecto_atr/project-files/dynamips/d2f2d817-1515-41b4-b6fe-baea796dfdd8 
+2026-09-20T08:29:07.581Z GENERAL: working_dir=/home/lu/GNS3/projects/ATR/proyecto_atr/project-files/dynamips/d2f2d817-1515-41b4-b6fe-baea796dfdd8
+2026-09-20T08:29:07.581Z HYPERVISOR: exec_cmd: vm create CPE2 4 c3745 
+2026-09-20T08:29:07.583Z VM: VM CPE2 created.
+2026-09-20T08:29:07.583Z HYPERVISOR: exec_cmd: vm set_con_tcp_port CPE2 5005 
+2026-09-20T08:29:07.583Z HYPERVISOR: exec_cmd: c3745 get_mac_addr CPE2 
+2026-09-20T08:29:07.583Z HYPERVISOR: exec_cmd: vm set_disk0 CPE2 4 
+2026-09-20T08:29:07.583Z HYPERVISOR: exec_cmd: vm get_status CPE2 
+2026-09-20T08:29:07.583Z HYPERVISOR: exec_cmd: vm set_idle_pc CPE2 0x60aa1da0 
+2026-09-20T08:29:07.584Z HYPERVISOR: exec_cmd: vm set_ios CPE2 /home/lu/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+2026-09-20T08:29:07.584Z HYPERVISOR: exec_cmd: c3745 set_mac_addr CPE2 c404.5a68.0000 
+2026-09-20T08:29:07.584Z HYPERVISOR: exec_cmd: vm set_nvram CPE2 256 
+2026-09-20T08:29:07.585Z HYPERVISOR: exec_cmd: vm set_ram CPE2 192 
+2026-09-20T08:29:07.585Z HYPERVISOR: exec_cmd: vm get_status CPE2 
+2026-09-20T08:29:07.585Z HYPERVISOR: exec_cmd: vm slot_add_binding CPE2 1 0 NM-16ESW 
+2026-09-20T08:29:07.585Z HYPERVISOR: exec_cmd: vm get_status CPE2 
+2026-09-20T08:29:07.585Z HYPERVISOR: exec_cmd: vm slot_add_binding CPE2 2 0 NM-1FE-TX 
+2026-09-20T08:29:08.141Z HYPERVISOR: exec_cmd: nio create_udp udp-e3187db6-48e1-4127-bd22-8c221371264c 10006 127.0.0.1 10007 
+2026-09-20T08:29:08.354Z HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE2 0 0 udp-e3187db6-48e1-4127-bd22-8c221371264c 
+2026-09-20T08:29:08.355Z HYPERVISOR: exec_cmd: vm get_status CPE2 
+2026-09-20T08:29:08.845Z HYPERVISOR: exec_cmd: nio create_udp udp-297f71a0-74f6-48d6-a9ee-c1a103f69156 10018 127.0.0.1 10019 
+2026-09-20T08:29:08.846Z HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE2 0 1 udp-297f71a0-74f6-48d6-a9ee-c1a103f69156 
+2026-09-20T08:29:08.846Z HYPERVISOR: exec_cmd: vm get_status CPE2 
+2026-09-20T08:29:09.606Z HYPERVISOR: exec_cmd: nio create_udp udp-419217ef-211e-41ad-8339-d8501548e1c9 10054 127.0.0.1 10055 
+2026-09-20T08:29:09.607Z HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE2 2 0 udp-419217ef-211e-41ad-8339-d8501548e1c9 
+2026-09-20T08:29:09.607Z HYPERVISOR: exec_cmd: vm get_status CPE2 
+2026-09-20T08:45:14.130Z HYPERVISOR: Stopped.
+2026-09-20T08:45:14.130Z VM: VM CPE2 destroyed.
+2026-09-20T08:45:14.159Z GENERAL: reset done.

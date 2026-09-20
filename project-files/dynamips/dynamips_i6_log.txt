@@ -1,27 +1,55 @@
-Sep 10 09:41:43.548 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
-Sep 10 09:41:43.548 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 23104.
-Sep 10 09:41:44.062 HYPERVISOR: exec_cmd: hypervisor version 
-Sep 10 09:41:44.062 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\Repositories\proyecto_atr\project-files\dynamips 
-Sep 10 09:41:44.062 GENERAL: working_dir=C:\Users\serap\Repositories\proyecto_atr\project-files\dynamips
-Sep 10 09:41:44.062 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\Repositories\proyecto_atr\project-files\dynamips\d2f2d817-1515-41b4-b6fe-baea796dfdd8 
-Sep 10 09:41:44.065 GENERAL: working_dir=C:\Users\serap\Repositories\proyecto_atr\project-files\dynamips\d2f2d817-1515-41b4-b6fe-baea796dfdd8
-Sep 10 09:41:44.065 HYPERVISOR: exec_cmd: vm create CPE2 4 c3745 
-Sep 10 09:41:44.065 VM: VM CPE2 created.
-Sep 10 09:41:44.065 HYPERVISOR: exec_cmd: vm set_con_tcp_port CPE2 5005 
-Sep 10 09:41:44.065 HYPERVISOR: exec_cmd: c3745 get_mac_addr CPE2 
-Sep 10 09:41:44.067 HYPERVISOR: exec_cmd: vm set_disk0 CPE2 4 
-Sep 10 09:41:44.067 HYPERVISOR: exec_cmd: vm set_exec_area CPE2 64 
-Sep 10 09:41:44.067 HYPERVISOR: exec_cmd: vm get_status CPE2 
-Sep 10 09:41:44.067 HYPERVISOR: exec_cmd: vm set_idle_pc CPE2 0x60aa1da0 
-Sep 10 09:41:44.067 HYPERVISOR: exec_cmd: vm set_ios CPE2 C:/Users/serap/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
-Sep 10 09:41:44.067 HYPERVISOR: exec_cmd: c3745 set_mac_addr CPE2 c404.5a68.0000 
-Sep 10 09:41:44.067 HYPERVISOR: exec_cmd: vm set_nvram CPE2 256 
-Sep 10 09:41:44.067 HYPERVISOR: exec_cmd: vm set_ram CPE2 192 
-Sep 10 09:41:44.067 HYPERVISOR: exec_cmd: vm get_status CPE2 
-Sep 10 09:41:44.067 HYPERVISOR: exec_cmd: vm slot_add_binding CPE2 1 0 NM-16ESW 
-Sep 10 09:41:45.711 HYPERVISOR: exec_cmd: nio create_udp udp-47a2046e-5757-4fa8-96d7-b709e1669cfc 10014 127.0.0.1 10015 
-Sep 10 09:41:45.992 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE2 0 0 udp-47a2046e-5757-4fa8-96d7-b709e1669cfc 
-Sep 10 09:41:45.992 HYPERVISOR: exec_cmd: vm get_status CPE2 
-Sep 10 09:41:46.359 HYPERVISOR: exec_cmd: nio create_udp udp-7a13e8f5-527f-430e-b4ad-aa3d65669036 10026 127.0.0.1 10027 
-Sep 10 09:41:46.359 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE2 0 1 udp-7a13e8f5-527f-430e-b4ad-aa3d65669036 
-Sep 10 09:41:46.359 HYPERVISOR: exec_cmd: vm get_status CPE2 
+2026-09-20T08:47:56.218Z HYPERVISOR: Release 0.2.25-amd64/Linux (tag 2023010200)
+2026-09-20T08:47:56.218Z HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 43029.
+2026-09-20T08:47:56.224Z HYPERVISOR: exec_cmd: hypervisor version 
+2026-09-20T08:47:56.224Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/lu/GNS3/projects/ATR/proyecto_atr/project-files/dynamips 
+2026-09-20T08:47:56.224Z GENERAL: working_dir=/home/lu/GNS3/projects/ATR/proyecto_atr/project-files/dynamips
+2026-09-20T08:47:56.224Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/lu/GNS3/projects/ATR/proyecto_atr/project-files/dynamips/d2f2d817-1515-41b4-b6fe-baea796dfdd8 
+2026-09-20T08:47:56.224Z GENERAL: working_dir=/home/lu/GNS3/projects/ATR/proyecto_atr/project-files/dynamips/d2f2d817-1515-41b4-b6fe-baea796dfdd8
+2026-09-20T08:47:56.224Z HYPERVISOR: exec_cmd: vm create CPE2 4 c3745 
+2026-09-20T08:47:56.225Z VM: VM CPE2 created.
+2026-09-20T08:47:56.225Z HYPERVISOR: exec_cmd: vm set_con_tcp_port CPE2 5005 
+2026-09-20T08:47:56.225Z HYPERVISOR: exec_cmd: c3745 get_mac_addr CPE2 
+2026-09-20T08:47:56.225Z HYPERVISOR: exec_cmd: vm set_disk0 CPE2 4 
+2026-09-20T08:47:56.225Z HYPERVISOR: exec_cmd: vm get_status CPE2 
+2026-09-20T08:47:56.225Z HYPERVISOR: exec_cmd: vm set_idle_pc CPE2 0x60aa1da0 
+2026-09-20T08:47:56.226Z HYPERVISOR: exec_cmd: vm set_ios CPE2 /home/lu/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+2026-09-20T08:47:56.226Z HYPERVISOR: exec_cmd: c3745 set_mac_addr CPE2 c404.5a68.0000 
+2026-09-20T08:47:56.226Z HYPERVISOR: exec_cmd: vm set_nvram CPE2 256 
+2026-09-20T08:47:56.226Z HYPERVISOR: exec_cmd: vm set_ram CPE2 192 
+2026-09-20T08:47:56.227Z HYPERVISOR: exec_cmd: vm get_status CPE2 
+2026-09-20T08:47:56.227Z HYPERVISOR: exec_cmd: vm slot_add_binding CPE2 1 0 NM-16ESW 
+2026-09-20T08:47:56.227Z HYPERVISOR: exec_cmd: vm get_status CPE2 
+2026-09-20T08:47:56.227Z HYPERVISOR: exec_cmd: vm slot_add_binding CPE2 2 0 NM-1FE-TX 
+2026-09-20T08:47:56.781Z HYPERVISOR: exec_cmd: nio create_udp udp-8748bc24-82b7-4c5e-a5ca-5eaa967d848d 10006 127.0.0.1 10007 
+2026-09-20T08:47:56.993Z HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE2 0 0 udp-8748bc24-82b7-4c5e-a5ca-5eaa967d848d 
+2026-09-20T08:47:56.993Z HYPERVISOR: exec_cmd: vm get_status CPE2 
+2026-09-20T08:47:57.454Z HYPERVISOR: exec_cmd: nio create_udp udp-6c6b3c78-e4c0-4db0-ac5f-a909144304f8 10018 127.0.0.1 10019 
+2026-09-20T08:47:57.455Z HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE2 0 1 udp-6c6b3c78-e4c0-4db0-ac5f-a909144304f8 
+2026-09-20T08:47:57.455Z HYPERVISOR: exec_cmd: vm get_status CPE2 
+2026-09-20T08:47:58.675Z HYPERVISOR: exec_cmd: nio create_udp udp-9280b468-9060-45fc-9d52-5a3f10d406d6 10054 127.0.0.1 10055 
+2026-09-20T08:47:58.676Z HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE2 2 0 udp-9280b468-9060-45fc-9d52-5a3f10d406d6 
+2026-09-20T08:47:58.676Z HYPERVISOR: exec_cmd: vm get_status CPE2 
+2026-09-20T09:41:48.725Z HYPERVISOR: exec_cmd: vm set_ghost_status CPE2 2 
+2026-09-20T09:41:48.726Z HYPERVISOR: exec_cmd: vm set_ghost_file CPE2 /home/lu/GNS3/projects/ATR/proyecto_atr/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-192.ghost 
+2026-09-20T09:41:48.726Z HYPERVISOR: exec_cmd: vm get_status CPE2 
+2026-09-20T09:41:48.728Z HYPERVISOR: exec_cmd: vm set_config CPE2 configs/i4_startup-config.cfg 
+2026-09-20T09:41:48.728Z HYPERVISOR: exec_cmd: vm start CPE2 
+2026-09-20T10:11:40.726Z HYPERVISOR: exec_cmd: vm get_status CPE2 
+2026-09-20T10:11:40.727Z HYPERVISOR: exec_cmd: vm stop CPE2 
+2026-09-20T10:11:45.701Z VM: VM CPE2 shutdown.
+2026-09-20T10:11:45.702Z HYPERVISOR: exec_cmd: vm extract_config CPE2 
+2026-09-20T10:11:55.087Z HYPERVISOR: exec_cmd: vm set_ghost_status CPE2 2 
+2026-09-20T10:11:55.087Z HYPERVISOR: exec_cmd: vm set_ghost_file CPE2 /home/lu/GNS3/projects/ATR/proyecto_atr/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-192.ghost 
+2026-09-20T10:11:55.087Z HYPERVISOR: exec_cmd: vm get_status CPE2 
+2026-09-20T10:11:55.088Z HYPERVISOR: exec_cmd: vm set_config CPE2 configs/i4_startup-config.cfg 
+2026-09-20T10:11:55.088Z HYPERVISOR: exec_cmd: vm start CPE2 
+2026-09-20T14:06:18.793Z HYPERVISOR: exec_cmd: vm extract_config CPE2 
+2026-09-20T14:06:18.798Z HYPERVISOR: exec_cmd: vm extract_config CPE2 
+2026-09-20T16:11:49.461Z HYPERVISOR: exec_cmd: vm extract_config CPE2 
+2026-09-20T16:11:49.465Z HYPERVISOR: exec_cmd: vm extract_config CPE2 
+2026-09-20T16:26:19.531Z HYPERVISOR: exec_cmd: vm extract_config CPE2 
+2026-09-20T16:26:19.533Z HYPERVISOR: exec_cmd: vm extract_config CPE2 
+2026-09-20T17:04:29.729Z HYPERVISOR: Stopped.
+2026-09-20T17:04:29.879Z VM: VM CPE2 shutdown.
+2026-09-20T17:04:29.879Z VM: VM CPE2 destroyed.
+2026-09-20T17:04:29.879Z GENERAL: reset done.

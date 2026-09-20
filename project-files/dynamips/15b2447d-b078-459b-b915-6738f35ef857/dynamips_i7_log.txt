@@ -1,0 +1,29 @@
+2026-09-20T08:29:07.606Z HYPERVISOR: Release 0.2.25-amd64/Linux (tag 2023010200)
+2026-09-20T08:29:07.606Z HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 41381.
+2026-09-20T08:29:07.612Z HYPERVISOR: exec_cmd: hypervisor version 
+2026-09-20T08:29:07.612Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/lu/GNS3/projects/ATR/proyecto_atr/project-files/dynamips 
+2026-09-20T08:29:07.612Z GENERAL: working_dir=/home/lu/GNS3/projects/ATR/proyecto_atr/project-files/dynamips
+2026-09-20T08:29:07.612Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/lu/GNS3/projects/ATR/proyecto_atr/project-files/dynamips/1d42f013-7a9e-4056-b56a-9791a2e6d8e4 
+2026-09-20T08:29:07.612Z GENERAL: working_dir=/home/lu/GNS3/projects/ATR/proyecto_atr/project-files/dynamips/1d42f013-7a9e-4056-b56a-9791a2e6d8e4
+2026-09-20T08:29:07.612Z HYPERVISOR: exec_cmd: vm create CPE3 5 c3745 
+2026-09-20T08:29:07.614Z VM: VM CPE3 created.
+2026-09-20T08:29:07.614Z HYPERVISOR: exec_cmd: vm set_con_tcp_port CPE3 5006 
+2026-09-20T08:29:07.614Z HYPERVISOR: exec_cmd: c3745 get_mac_addr CPE3 
+2026-09-20T08:29:07.614Z HYPERVISOR: exec_cmd: vm set_disk0 CPE3 4 
+2026-09-20T08:29:07.614Z HYPERVISOR: exec_cmd: vm get_status CPE3 
+2026-09-20T08:29:07.614Z HYPERVISOR: exec_cmd: vm set_idle_pc CPE3 0x60aa1da0 
+2026-09-20T08:29:07.615Z HYPERVISOR: exec_cmd: vm set_ios CPE3 /home/lu/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+2026-09-20T08:29:07.615Z HYPERVISOR: exec_cmd: c3745 set_mac_addr CPE3 c405.4e48.0000 
+2026-09-20T08:29:07.615Z HYPERVISOR: exec_cmd: vm set_nvram CPE3 256 
+2026-09-20T08:29:07.615Z HYPERVISOR: exec_cmd: vm set_ram CPE3 192 
+2026-09-20T08:29:07.616Z HYPERVISOR: exec_cmd: vm get_status CPE3 
+2026-09-20T08:29:07.616Z HYPERVISOR: exec_cmd: vm slot_add_binding CPE3 1 0 NM-16ESW 
+2026-09-20T08:29:08.455Z HYPERVISOR: exec_cmd: nio create_udp udp-31a055be-5a68-400c-8635-c721c9f06039 10010 127.0.0.1 10011 
+2026-09-20T08:29:08.667Z HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE3 0 0 udp-31a055be-5a68-400c-8635-c721c9f06039 
+2026-09-20T08:29:08.668Z HYPERVISOR: exec_cmd: vm get_status CPE3 
+2026-09-20T08:29:08.920Z HYPERVISOR: exec_cmd: nio create_udp udp-8fb5ddf6-c6b9-4bcc-a44a-ea468bcb5d78 10022 127.0.0.1 10023 
+2026-09-20T08:29:08.921Z HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE3 0 1 udp-8fb5ddf6-c6b9-4bcc-a44a-ea468bcb5d78 
+2026-09-20T08:29:08.921Z HYPERVISOR: exec_cmd: vm get_status CPE3 
+2026-09-20T08:45:14.131Z HYPERVISOR: Stopped.
+2026-09-20T08:45:14.131Z VM: VM CPE3 destroyed.
+2026-09-20T08:45:14.179Z GENERAL: reset done.

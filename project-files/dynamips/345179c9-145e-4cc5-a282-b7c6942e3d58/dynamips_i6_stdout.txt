@@ -1,0 +1,18 @@
+udp_connect: bind/connect: No such file or directory
+udp_connect: bind/connect: Invalid argument
+udp_connect: bind/connect: Invalid argument
+Cisco Router Simulation Platform (version 0.2.25-amd64/Linux stable)
+Copyright (c) 2005-2011 Christophe Fillot.
+Build date: Sep 12 2026 12:00:00
+
+Log file: writing to dynamips_i6_log.txt
+Console binding address set to 127.0.0.1
+ILT: loaded table "mips64j" from cache.
+ILT: loaded table "mips64e" from cache.
+ILT: loaded table "ppc32j" from cache.
+ILT: loaded table "ppc32e" from cache.
+Hypervisor TCP control server started (IP 127.0.0.1 port 60801).
+Hypervisor: closing control sockets.
+Hypervisor: closing remote client connections.
+Shutdown in progress...
+Shutdown completed.
