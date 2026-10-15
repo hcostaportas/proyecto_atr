@@ -1,0 +1,45 @@
+Oct 15 20:14:09.801 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 15 20:14:09.801 HYPERVISOR: Started on IP = localhost, TCP port = 49816.
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips 
+Oct 15 20:14:10.308 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\7ffbdd60-8365-43cf-b967-255cdf908fa1 
+Oct 15 20:14:10.308 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\7ffbdd60-8365-43cf-b967-255cdf908fa1
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm create PE34c7200 21 c7200 
+Oct 15 20:14:10.308 VM: VM PE34c7200 created.
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm set_con_tcp_port PE34c7200 5031 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: c7200 get_mac_addr PE34c7200 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm get_status PE34c7200 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm slot_add_binding PE34c7200 0 0 C7200-IO-FE 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm set_disk0 PE34c7200 0 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm set_exec_area PE34c7200 64 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm get_status PE34c7200 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm set_idle_pc PE34c7200 0x62cc90e4 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm set_ios PE34c7200 C:/Users/serap/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: c7200 set_mac_addr PE34c7200 ca15.9208.0000 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm set_nvram PE34c7200 512 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm set_ram PE34c7200 512 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm get_status PE34c7200 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm slot_remove_binding PE34c7200 0 0 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm get_status PE34c7200 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm slot_add_binding PE34c7200 0 0 C7200-IO-2FE 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm get_status PE34c7200 
+Oct 15 20:14:10.308 HYPERVISOR: exec_cmd: vm slot_add_binding PE34c7200 1 0 PA-FE-TX 
+Oct 15 20:14:19.740 HYPERVISOR: exec_cmd: nio create_udp udp-2e7a579a-2268-4d3f-859e-4b393825fd5d 10140 127.0.0.1 10141 
+Oct 15 20:14:20.053 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE34c7200 1 0 udp-2e7a579a-2268-4d3f-859e-4b393825fd5d 
+Oct 15 20:14:20.053 HYPERVISOR: exec_cmd: vm get_status PE34c7200 
+Oct 15 20:14:23.988 HYPERVISOR: exec_cmd: nio create_udp udp-1be59c81-aaef-4e1c-ac48-003c2dfd1c62 10198 127.0.0.1 10199 
+Oct 15 20:14:23.994 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE34c7200 0 0 udp-1be59c81-aaef-4e1c-ac48-003c2dfd1c62 
+Oct 15 20:14:23.994 HYPERVISOR: exec_cmd: vm get_status PE34c7200 
+Oct 15 20:14:24.109 HYPERVISOR: exec_cmd: nio create_udp udp-5fd7ae70-31b0-49d2-a521-75109c3f9ae1 10204 127.0.0.1 10205 
+Oct 15 20:14:24.111 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE34c7200 0 1 udp-5fd7ae70-31b0-49d2-a521-75109c3f9ae1 
+Oct 15 20:14:24.112 HYPERVISOR: exec_cmd: vm get_status PE34c7200 
+Oct 15 20:16:24.949 HYPERVISOR: exec_cmd: vm get_status PE34c7200 
+Oct 15 20:16:24.949 HYPERVISOR: exec_cmd: vm extract_config PE34c7200 
+Oct 15 20:16:25.279 HYPERVISOR: exec_cmd: vm get_status PE34c7200 
+Oct 15 20:16:25.279 HYPERVISOR: exec_cmd: vm extract_config PE34c7200 
+Oct 15 20:16:25.282 HYPERVISOR: exec_cmd: vm delete PE34c7200 
+Oct 15 20:16:25.282 VM: VM PE34c7200 destroyed.
+Oct 15 20:16:25.282 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 15 20:16:25.788 HYPERVISOR: Stopped.
+Oct 15 20:16:25.788 GENERAL: reset done.

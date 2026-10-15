@@ -1,0 +1,27 @@
+Oct 15 20:19:36.453 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 15 20:19:36.457 HYPERVISOR: Started on IP = localhost, TCP port = 51208.
+Oct 15 20:19:36.913 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 20:19:36.913 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips 
+Oct 15 20:19:36.913 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips
+Oct 15 20:19:36.913 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\8c0e5a55-19c6-4054-81dc-afaa2658a1c9 
+Oct 15 20:19:36.913 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\8c0e5a55-19c6-4054-81dc-afaa2658a1c9
+Oct 15 20:19:36.913 HYPERVISOR: exec_cmd: vm create CPE31 3 c3745 
+Oct 15 20:19:36.924 VM: VM CPE31 created.
+Oct 15 20:19:36.924 HYPERVISOR: exec_cmd: vm set_con_tcp_port CPE31 5004 
+Oct 15 20:19:36.924 HYPERVISOR: exec_cmd: c3745 get_mac_addr CPE31 
+Oct 15 20:19:36.924 HYPERVISOR: exec_cmd: vm set_disk0 CPE31 4 
+Oct 15 20:19:36.924 HYPERVISOR: exec_cmd: vm set_exec_area CPE31 64 
+Oct 15 20:19:36.924 HYPERVISOR: exec_cmd: vm get_status CPE31 
+Oct 15 20:19:36.924 HYPERVISOR: exec_cmd: vm set_idle_pc CPE31 0x60aa1da0 
+Oct 15 20:19:36.924 HYPERVISOR: exec_cmd: vm set_ios CPE31 C:/Users/serap/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Oct 15 20:19:36.924 HYPERVISOR: exec_cmd: c3745 set_mac_addr CPE31 c403.171c.0000 
+Oct 15 20:19:36.924 HYPERVISOR: exec_cmd: vm set_nvram CPE31 256 
+Oct 15 20:19:36.924 HYPERVISOR: exec_cmd: vm set_ram CPE31 192 
+Oct 15 20:19:36.924 HYPERVISOR: exec_cmd: vm get_status CPE31 
+Oct 15 20:19:36.924 HYPERVISOR: exec_cmd: vm slot_add_binding CPE31 1 0 NM-16ESW 
+Oct 15 20:19:53.390 HYPERVISOR: exec_cmd: nio create_udp udp-a92f093d-0be0-4b1f-ab4c-6a988050692b 10002 127.0.0.1 10003 
+Oct 15 20:19:53.709 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE31 0 0 udp-a92f093d-0be0-4b1f-ab4c-6a988050692b 
+Oct 15 20:19:53.709 HYPERVISOR: exec_cmd: vm get_status CPE31 
+Oct 15 20:19:54.518 HYPERVISOR: exec_cmd: nio create_udp udp-b6ea3376-1641-4f51-8d57-412f6b70778f 10014 127.0.0.1 10015 
+Oct 15 20:19:54.518 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE31 0 1 udp-b6ea3376-1641-4f51-8d57-412f6b70778f 
+Oct 15 20:19:54.518 HYPERVISOR: exec_cmd: vm get_status CPE31 

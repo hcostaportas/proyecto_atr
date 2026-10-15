@@ -1,0 +1,39 @@
+Oct 15 20:14:01.150 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 15 20:14:01.150 HYPERVISOR: Started on IP = localhost, TCP port = 49754.
+Oct 15 20:14:01.660 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 20:14:01.660 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips 
+Oct 15 20:14:01.660 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips
+Oct 15 20:14:01.660 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\9e49998a-1071-4708-a900-9d626dfd241a 
+Oct 15 20:14:01.660 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\9e49998a-1071-4708-a900-9d626dfd241a
+Oct 15 20:14:01.660 HYPERVISOR: exec_cmd: vm create R11 6 c3745 
+Oct 15 20:14:01.660 VM: VM R11 created.
+Oct 15 20:14:01.660 HYPERVISOR: exec_cmd: vm set_con_tcp_port R11 5013 
+Oct 15 20:14:01.660 HYPERVISOR: exec_cmd: c3745 get_mac_addr R11 
+Oct 15 20:14:01.660 HYPERVISOR: exec_cmd: vm set_disk0 R11 4 
+Oct 15 20:14:01.660 HYPERVISOR: exec_cmd: vm set_exec_area R11 64 
+Oct 15 20:14:01.660 HYPERVISOR: exec_cmd: vm get_status R11 
+Oct 15 20:14:01.660 HYPERVISOR: exec_cmd: vm set_idle_pc R11 0x60aa311c 
+Oct 15 20:14:01.660 HYPERVISOR: exec_cmd: vm set_ios R11 C:/Users/serap/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Oct 15 20:14:01.660 HYPERVISOR: exec_cmd: c3745 set_mac_addr R11 c406.4ef4.0000 
+Oct 15 20:14:01.660 HYPERVISOR: exec_cmd: vm set_nvram R11 256 
+Oct 15 20:14:01.660 HYPERVISOR: exec_cmd: vm set_ram R11 192 
+Oct 15 20:14:01.660 HYPERVISOR: exec_cmd: vm get_status R11 
+Oct 15 20:14:01.660 HYPERVISOR: exec_cmd: vm slot_add_binding R11 1 0 NM-16ESW 
+Oct 15 20:14:17.220 HYPERVISOR: exec_cmd: nio create_udp udp-0a46d87c-3a49-4b21-b16d-85c223983f98 10084 127.0.0.1 10085 
+Oct 15 20:14:17.509 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R11 0 1 udp-0a46d87c-3a49-4b21-b16d-85c223983f98 
+Oct 15 20:14:17.509 HYPERVISOR: exec_cmd: vm get_status R11 
+Oct 15 20:14:24.350 HYPERVISOR: exec_cmd: nio create_udp udp-628d8d9f-bf9e-4535-9c4a-c340eb18189b 10216 127.0.0.1 10217 
+Oct 15 20:14:24.353 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R11 0 0 udp-628d8d9f-bf9e-4535-9c4a-c340eb18189b 
+Oct 15 20:14:24.353 HYPERVISOR: exec_cmd: vm get_status R11 
+Oct 15 20:14:24.588 HYPERVISOR: exec_cmd: nio create_udp udp-783ee346-3f76-49b1-9a1f-8143ef22bdd2 10228 127.0.0.1 10229 
+Oct 15 20:14:24.588 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R11 1 0 udp-783ee346-3f76-49b1-9a1f-8143ef22bdd2 
+Oct 15 20:14:24.588 HYPERVISOR: exec_cmd: vm get_status R11 
+Oct 15 20:16:24.920 HYPERVISOR: exec_cmd: vm get_status R11 
+Oct 15 20:16:24.920 HYPERVISOR: exec_cmd: vm extract_config R11 
+Oct 15 20:16:25.279 HYPERVISOR: exec_cmd: vm get_status R11 
+Oct 15 20:16:25.279 HYPERVISOR: exec_cmd: vm extract_config R11 
+Oct 15 20:16:25.282 HYPERVISOR: exec_cmd: vm delete R11 
+Oct 15 20:16:25.282 VM: VM R11 destroyed.
+Oct 15 20:16:25.282 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 15 20:16:25.788 HYPERVISOR: Stopped.
+Oct 15 20:16:25.788 GENERAL: reset done.

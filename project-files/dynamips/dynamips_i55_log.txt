@@ -1,0 +1,27 @@
+Oct 15 20:19:47.405 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 15 20:19:47.409 HYPERVISOR: Started on IP = localhost, TCP port = 51282.
+Oct 15 20:19:47.862 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 20:19:47.862 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips 
+Oct 15 20:19:47.862 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips
+Oct 15 20:19:47.862 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\70649424-025c-4cb9-91d9-1ca53540851f 
+Oct 15 20:19:47.866 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\70649424-025c-4cb9-91d9-1ca53540851f
+Oct 15 20:19:47.866 HYPERVISOR: exec_cmd: vm create RI2 27 c3745 
+Oct 15 20:19:47.866 VM: VM RI2 created.
+Oct 15 20:19:47.866 HYPERVISOR: exec_cmd: vm set_con_tcp_port RI2 5037 
+Oct 15 20:19:47.866 HYPERVISOR: exec_cmd: c3745 get_mac_addr RI2 
+Oct 15 20:19:47.866 HYPERVISOR: exec_cmd: vm set_disk0 RI2 4 
+Oct 15 20:19:47.866 HYPERVISOR: exec_cmd: vm set_exec_area RI2 64 
+Oct 15 20:19:47.866 HYPERVISOR: exec_cmd: vm get_status RI2 
+Oct 15 20:19:47.866 HYPERVISOR: exec_cmd: vm set_idle_pc RI2 0x60aa1da0 
+Oct 15 20:19:47.866 HYPERVISOR: exec_cmd: vm set_ios RI2 C:/Users/serap/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Oct 15 20:19:47.866 HYPERVISOR: exec_cmd: c3745 set_mac_addr RI2 c41b.87bc.0000 
+Oct 15 20:19:47.866 HYPERVISOR: exec_cmd: vm set_nvram RI2 256 
+Oct 15 20:19:47.866 HYPERVISOR: exec_cmd: vm set_ram RI2 256 
+Oct 15 20:19:47.866 HYPERVISOR: exec_cmd: vm get_status RI2 
+Oct 15 20:19:47.866 HYPERVISOR: exec_cmd: vm slot_add_binding RI2 1 0 NM-16ESW 
+Oct 15 20:20:02.420 HYPERVISOR: exec_cmd: nio create_udp udp-b83addcb-f47c-4467-a9b0-2169e3dd8882 10114 127.0.0.1 10115 
+Oct 15 20:20:03.294 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RI2 0 0 udp-b83addcb-f47c-4467-a9b0-2169e3dd8882 
+Oct 15 20:20:03.294 HYPERVISOR: exec_cmd: vm get_status RI2 
+Oct 15 20:20:04.202 HYPERVISOR: exec_cmd: nio create_udp udp-69af110d-06a5-4c3a-a020-6af844142c9d 10120 127.0.0.1 10121 
+Oct 15 20:20:04.222 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RI2 0 1 udp-69af110d-06a5-4c3a-a020-6af844142c9d 
+Oct 15 20:20:04.222 HYPERVISOR: exec_cmd: vm get_status RI2 

@@ -1,0 +1,27 @@
+Oct 15 20:19:37.682 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 15 20:19:37.682 HYPERVISOR: Started on IP = localhost, TCP port = 51214.
+Oct 15 20:19:38.151 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 20:19:38.151 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips 
+Oct 15 20:19:38.151 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips
+Oct 15 20:19:38.151 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\25ae2ee1-2761-4273-aa26-0211ef4e1667 
+Oct 15 20:19:38.151 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\25ae2ee1-2761-4273-aa26-0211ef4e1667
+Oct 15 20:19:38.151 HYPERVISOR: exec_cmd: vm create CPE22 5 c3745 
+Oct 15 20:19:38.151 VM: VM CPE22 created.
+Oct 15 20:19:38.151 HYPERVISOR: exec_cmd: vm set_con_tcp_port CPE22 5006 
+Oct 15 20:19:38.151 HYPERVISOR: exec_cmd: c3745 get_mac_addr CPE22 
+Oct 15 20:19:38.151 HYPERVISOR: exec_cmd: vm set_disk0 CPE22 4 
+Oct 15 20:19:38.151 HYPERVISOR: exec_cmd: vm set_exec_area CPE22 64 
+Oct 15 20:19:38.151 HYPERVISOR: exec_cmd: vm get_status CPE22 
+Oct 15 20:19:38.151 HYPERVISOR: exec_cmd: vm set_idle_pc CPE22 0x60aa1da0 
+Oct 15 20:19:38.151 HYPERVISOR: exec_cmd: vm set_ios CPE22 C:/Users/serap/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Oct 15 20:19:38.151 HYPERVISOR: exec_cmd: c3745 set_mac_addr CPE22 c405.4e48.0000 
+Oct 15 20:19:38.151 HYPERVISOR: exec_cmd: vm set_nvram CPE22 256 
+Oct 15 20:19:38.151 HYPERVISOR: exec_cmd: vm set_ram CPE22 192 
+Oct 15 20:19:38.151 HYPERVISOR: exec_cmd: vm get_status CPE22 
+Oct 15 20:19:38.151 HYPERVISOR: exec_cmd: vm slot_add_binding CPE22 1 0 NM-16ESW 
+Oct 15 20:19:54.156 HYPERVISOR: exec_cmd: nio create_udp udp-2fbb8870-3ccb-4efb-8bad-5de64feb8a18 10010 127.0.0.1 10011 
+Oct 15 20:19:54.470 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE22 0 0 udp-2fbb8870-3ccb-4efb-8bad-5de64feb8a18 
+Oct 15 20:19:54.470 HYPERVISOR: exec_cmd: vm get_status CPE22 
+Oct 15 20:19:54.646 HYPERVISOR: exec_cmd: nio create_udp udp-d983c1bf-1805-4ec1-ba88-07c8679d92df 10022 127.0.0.1 10023 
+Oct 15 20:19:54.646 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE22 0 1 udp-d983c1bf-1805-4ec1-ba88-07c8679d92df 
+Oct 15 20:19:54.646 HYPERVISOR: exec_cmd: vm get_status CPE22 

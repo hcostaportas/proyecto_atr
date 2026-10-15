@@ -1,0 +1,27 @@
+Oct 15 20:19:46.802 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 15 20:19:46.807 HYPERVISOR: Started on IP = localhost, TCP port = 51278.
+Oct 15 20:19:47.259 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 20:19:47.259 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips 
+Oct 15 20:19:47.259 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips
+Oct 15 20:19:47.259 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\2489c65e-16ec-4a26-a350-c308601f7e9d 
+Oct 15 20:19:47.261 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\2489c65e-16ec-4a26-a350-c308601f7e9d
+Oct 15 20:19:47.261 HYPERVISOR: exec_cmd: vm create PE33 24 c3745 
+Oct 15 20:19:47.261 VM: VM PE33 created.
+Oct 15 20:19:47.261 HYPERVISOR: exec_cmd: vm set_con_tcp_port PE33 5034 
+Oct 15 20:19:47.261 HYPERVISOR: exec_cmd: c3745 get_mac_addr PE33 
+Oct 15 20:19:47.261 HYPERVISOR: exec_cmd: vm set_disk0 PE33 4 
+Oct 15 20:19:47.261 HYPERVISOR: exec_cmd: vm set_exec_area PE33 64 
+Oct 15 20:19:47.261 HYPERVISOR: exec_cmd: vm get_status PE33 
+Oct 15 20:19:47.261 HYPERVISOR: exec_cmd: vm set_idle_pc PE33 0x60aa1da0 
+Oct 15 20:19:47.261 HYPERVISOR: exec_cmd: vm set_ios PE33 C:/Users/serap/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Oct 15 20:19:47.261 HYPERVISOR: exec_cmd: c3745 set_mac_addr PE33 c418.4dec.0000 
+Oct 15 20:19:47.261 HYPERVISOR: exec_cmd: vm set_nvram PE33 256 
+Oct 15 20:19:47.261 HYPERVISOR: exec_cmd: vm set_ram PE33 256 
+Oct 15 20:19:47.261 HYPERVISOR: exec_cmd: vm get_status PE33 
+Oct 15 20:19:47.261 HYPERVISOR: exec_cmd: vm slot_add_binding PE33 1 0 NM-16ESW 
+Oct 15 20:20:15.202 HYPERVISOR: exec_cmd: nio create_udp udp-5b319a52-333a-4d44-92c7-3443b4853241 10194 127.0.0.1 10195 
+Oct 15 20:20:16.091 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE33 0 0 udp-5b319a52-333a-4d44-92c7-3443b4853241 
+Oct 15 20:20:16.092 HYPERVISOR: exec_cmd: vm get_status PE33 
+Oct 15 20:20:16.322 HYPERVISOR: exec_cmd: nio create_udp udp-21f167cc-521a-4f59-8ac5-495cb599236a 10206 127.0.0.1 10207 
+Oct 15 20:20:16.322 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE33 0 1 udp-21f167cc-521a-4f59-8ac5-495cb599236a 
+Oct 15 20:20:16.322 HYPERVISOR: exec_cmd: vm get_status PE33 

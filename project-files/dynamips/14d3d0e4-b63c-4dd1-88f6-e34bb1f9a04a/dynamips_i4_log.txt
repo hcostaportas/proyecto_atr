@@ -1,0 +1,22 @@
+Oct 15 20:13:59.922 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 15 20:13:59.922 HYPERVISOR: Started on IP = localhost, TCP port = 49739.
+Oct 15 20:13:59.926 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 20:13:59.926 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips 
+Oct 15 20:13:59.926 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips
+Oct 15 20:13:59.926 HYPERVISOR: exec_cmd: ethsw create Switch2 
+Oct 15 20:14:12.954 HYPERVISOR: exec_cmd: nio create_udp udp-cba89d14-51a9-46d7-8eca-d04578255f6d 10004 127.0.0.1 10005 
+Oct 15 20:14:12.954 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-cba89d14-51a9-46d7-8eca-d04578255f6d 
+Oct 15 20:14:12.970 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-cba89d14-51a9-46d7-8eca-d04578255f6d 1 
+Oct 15 20:14:13.272 HYPERVISOR: exec_cmd: nio create_udp udp-1cad4f08-340d-4a4a-b8e7-80bae0e2dce6 10008 127.0.0.1 10009 
+Oct 15 20:14:13.272 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-1cad4f08-340d-4a4a-b8e7-80bae0e2dce6 
+Oct 15 20:14:13.288 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-1cad4f08-340d-4a4a-b8e7-80bae0e2dce6 1 
+Oct 15 20:14:14.674 HYPERVISOR: exec_cmd: nio create_udp udp-910665fb-9db7-4fec-8f4b-182069f1d941 10045 127.0.0.1 10044 
+Oct 15 20:14:14.674 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-910665fb-9db7-4fec-8f4b-182069f1d941 
+Oct 15 20:14:14.689 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-910665fb-9db7-4fec-8f4b-182069f1d941 1 
+Oct 15 20:14:14.737 HYPERVISOR: exec_cmd: nio create_udp udp-9bf1d778-2933-4f91-ba12-8558d8d4b375 10048 127.0.0.1 10049 
+Oct 15 20:14:14.737 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-9bf1d778-2933-4f91-ba12-8558d8d4b375 
+Oct 15 20:14:14.753 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-9bf1d778-2933-4f91-ba12-8558d8d4b375 1 
+Oct 15 20:16:24.953 HYPERVISOR: exec_cmd: ethsw delete Switch2 
+Oct 15 20:16:25.072 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 15 20:16:25.086 HYPERVISOR: Stopped.
+Oct 15 20:16:25.086 GENERAL: reset done.

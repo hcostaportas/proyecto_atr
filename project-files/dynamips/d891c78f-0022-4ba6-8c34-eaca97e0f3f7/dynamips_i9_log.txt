@@ -1,0 +1,44 @@
+Oct 15 20:14:01.708 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 15 20:14:01.708 HYPERVISOR: Started on IP = localhost, TCP port = 49757.
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips 
+Oct 15 20:14:02.218 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\29382962-3700-481a-bd38-cfad85a41cbf 
+Oct 15 20:14:02.218 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\29382962-3700-481a-bd38-cfad85a41cbf
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: vm create PE12 7 c3745 
+Oct 15 20:14:02.218 VM: VM PE12 created.
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: vm set_con_tcp_port PE12 5014 
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: c3745 get_mac_addr PE12 
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: vm set_disk0 PE12 4 
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: vm set_exec_area PE12 64 
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: vm get_status PE12 
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: vm set_idle_pc PE12 0x60aa311c 
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: vm set_ios PE12 C:/Users/serap/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: c3745 set_mac_addr PE12 c407.43c4.0000 
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: vm set_nvram PE12 256 
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: vm set_ram PE12 192 
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: vm get_status PE12 
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: vm slot_add_binding PE12 1 0 NM-16ESW 
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: vm get_status PE12 
+Oct 15 20:14:02.218 HYPERVISOR: exec_cmd: vm slot_add_binding PE12 2 0 NM-1FE-TX 
+Oct 15 20:14:13.750 HYPERVISOR: exec_cmd: nio create_udp udp-b7725483-134d-4567-93ab-85f69babe758 10026 127.0.0.1 10027 
+Oct 15 20:14:14.004 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE12 0 1 udp-b7725483-134d-4567-93ab-85f69babe758 
+Oct 15 20:14:14.004 HYPERVISOR: exec_cmd: vm get_status PE12 
+Oct 15 20:14:14.674 HYPERVISOR: exec_cmd: nio create_udp udp-356a0c10-1196-4a68-b395-d6bcc88f2234 10046 127.0.0.1 10047 
+Oct 15 20:14:14.674 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE12 2 0 udp-356a0c10-1196-4a68-b395-d6bcc88f2234 
+Oct 15 20:14:14.674 HYPERVISOR: exec_cmd: vm get_status PE12 
+Oct 15 20:14:16.027 HYPERVISOR: exec_cmd: nio create_udp udp-7e6a56a7-9a05-43cd-bc74-c0a2fb37c0e2 10064 127.0.0.1 10065 
+Oct 15 20:14:16.027 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE12 1 0 udp-7e6a56a7-9a05-43cd-bc74-c0a2fb37c0e2 
+Oct 15 20:14:16.027 HYPERVISOR: exec_cmd: vm get_status PE12 
+Oct 15 20:14:17.921 HYPERVISOR: exec_cmd: nio create_udp udp-3438aa09-faaa-4705-b887-d0abdd7c10af 10098 127.0.0.1 10099 
+Oct 15 20:14:17.921 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE12 0 0 udp-3438aa09-faaa-4705-b887-d0abdd7c10af 
+Oct 15 20:14:17.921 HYPERVISOR: exec_cmd: vm get_status PE12 
+Oct 15 20:16:24.920 HYPERVISOR: exec_cmd: vm get_status PE12 
+Oct 15 20:16:24.920 HYPERVISOR: exec_cmd: vm extract_config PE12 
+Oct 15 20:16:25.384 HYPERVISOR: exec_cmd: vm get_status PE12 
+Oct 15 20:16:25.386 HYPERVISOR: exec_cmd: vm extract_config PE12 
+Oct 15 20:16:25.391 HYPERVISOR: exec_cmd: vm delete PE12 
+Oct 15 20:16:25.391 VM: VM PE12 destroyed.
+Oct 15 20:16:25.392 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 15 20:16:25.852 HYPERVISOR: Stopped.
+Oct 15 20:16:25.852 GENERAL: reset done.

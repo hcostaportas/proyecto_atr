@@ -1,0 +1,33 @@
+Oct 15 20:14:02.821 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 15 20:14:02.821 HYPERVISOR: Started on IP = localhost, TCP port = 49765.
+Oct 15 20:14:03.329 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 20:14:03.329 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips 
+Oct 15 20:14:03.329 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips
+Oct 15 20:14:03.329 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\d891c78f-0022-4ba6-8c34-eaca97e0f3f7 
+Oct 15 20:14:03.329 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\d891c78f-0022-4ba6-8c34-eaca97e0f3f7
+Oct 15 20:14:03.329 HYPERVISOR: exec_cmd: vm create CPE32 9 c3745 
+Oct 15 20:14:03.329 VM: VM CPE32 created.
+Oct 15 20:14:03.329 HYPERVISOR: exec_cmd: vm set_con_tcp_port CPE32 5018 
+Oct 15 20:14:03.329 HYPERVISOR: exec_cmd: c3745 get_mac_addr CPE32 
+Oct 15 20:14:03.329 HYPERVISOR: exec_cmd: vm set_disk0 CPE32 4 
+Oct 15 20:14:03.329 HYPERVISOR: exec_cmd: vm set_exec_area CPE32 64 
+Oct 15 20:14:03.329 HYPERVISOR: exec_cmd: vm get_status CPE32 
+Oct 15 20:14:03.329 HYPERVISOR: exec_cmd: vm set_idle_pc CPE32 0x60aa1da0 
+Oct 15 20:14:03.329 HYPERVISOR: exec_cmd: vm set_ios CPE32 C:/Users/serap/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Oct 15 20:14:03.329 HYPERVISOR: exec_cmd: c3745 set_mac_addr CPE32 c409.67ac.0000 
+Oct 15 20:14:03.329 HYPERVISOR: exec_cmd: vm set_nvram CPE32 256 
+Oct 15 20:14:03.329 HYPERVISOR: exec_cmd: vm set_ram CPE32 256 
+Oct 15 20:14:03.329 HYPERVISOR: exec_cmd: vm get_status CPE32 
+Oct 15 20:14:03.329 HYPERVISOR: exec_cmd: vm slot_add_binding CPE32 1 0 NM-16ESW 
+Oct 15 20:14:15.088 HYPERVISOR: exec_cmd: nio create_udp udp-1dffbd0f-c825-4b50-8c6a-f861ba4fbd3d 10054 127.0.0.1 10055 
+Oct 15 20:14:15.358 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE32 0 0 udp-1dffbd0f-c825-4b50-8c6a-f861ba4fbd3d 
+Oct 15 20:14:15.358 HYPERVISOR: exec_cmd: vm get_status CPE32 
+Oct 15 20:16:24.924 HYPERVISOR: exec_cmd: vm get_status CPE32 
+Oct 15 20:16:24.924 HYPERVISOR: exec_cmd: vm extract_config CPE32 
+Oct 15 20:16:25.168 HYPERVISOR: exec_cmd: vm get_status CPE32 
+Oct 15 20:16:25.168 HYPERVISOR: exec_cmd: vm extract_config CPE32 
+Oct 15 20:16:25.168 HYPERVISOR: exec_cmd: vm delete CPE32 
+Oct 15 20:16:25.168 VM: VM CPE32 destroyed.
+Oct 15 20:16:25.175 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 15 20:16:25.469 HYPERVISOR: Stopped.
+Oct 15 20:16:25.469 GENERAL: reset done.

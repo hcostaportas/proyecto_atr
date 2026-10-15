@@ -1,0 +1,36 @@
+Oct 15 20:19:49.218 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 15 20:19:49.218 HYPERVISOR: Started on IP = localhost, TCP port = 51291.
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips 
+Oct 15 20:19:49.681 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\91298c68-5302-4177-9e7d-5a1f903b05a3 
+Oct 15 20:19:49.681 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\91298c68-5302-4177-9e7d-5a1f903b05a3
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm create RI3c7200 17 c7200 
+Oct 15 20:19:49.681 VM: VM RI3c7200 created.
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm set_con_tcp_port RI3c7200 5027 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: c7200 get_mac_addr RI3c7200 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm get_status RI3c7200 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm slot_add_binding RI3c7200 0 0 C7200-IO-FE 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm set_disk0 RI3c7200 0 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm set_exec_area RI3c7200 64 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm get_status RI3c7200 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm set_idle_pc RI3c7200 0x62cc90e4 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm set_ios RI3c7200 C:/Users/serap/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: c7200 set_mac_addr RI3c7200 ca11.7424.0000 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm set_nvram RI3c7200 512 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm set_ram RI3c7200 512 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm get_status RI3c7200 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm slot_remove_binding RI3c7200 0 0 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm get_status RI3c7200 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm slot_add_binding RI3c7200 0 0 C7200-IO-2FE 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm get_status RI3c7200 
+Oct 15 20:19:49.681 HYPERVISOR: exec_cmd: vm slot_add_binding RI3c7200 1 0 PA-FE-TX 
+Oct 15 20:20:05.126 HYPERVISOR: exec_cmd: nio create_udp udp-970d6c0b-e435-4bc6-a0e9-7cf62cff37b0 10126 127.0.0.1 10127 
+Oct 15 20:20:06.005 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RI3c7200 0 0 udp-970d6c0b-e435-4bc6-a0e9-7cf62cff37b0 
+Oct 15 20:20:06.006 HYPERVISOR: exec_cmd: vm get_status RI3c7200 
+Oct 15 20:20:06.117 HYPERVISOR: exec_cmd: nio create_udp udp-a0bfe111-0fa1-4770-8a63-81e46f8a209d 10132 127.0.0.1 10133 
+Oct 15 20:20:06.120 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RI3c7200 0 1 udp-a0bfe111-0fa1-4770-8a63-81e46f8a209d 
+Oct 15 20:20:06.120 HYPERVISOR: exec_cmd: vm get_status RI3c7200 
+Oct 15 20:20:06.233 HYPERVISOR: exec_cmd: nio create_udp udp-16012e94-80a9-4d9e-bb43-0905018d3967 10138 127.0.0.1 10139 
+Oct 15 20:20:06.235 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RI3c7200 1 0 udp-16012e94-80a9-4d9e-bb43-0905018d3967 
+Oct 15 20:20:06.235 HYPERVISOR: exec_cmd: vm get_status RI3c7200 

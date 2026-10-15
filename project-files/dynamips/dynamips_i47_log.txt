@@ -1,0 +1,24 @@
+Oct 15 20:19:42.562 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 15 20:19:42.567 HYPERVISOR: Started on IP = localhost, TCP port = 51257.
+Oct 15 20:19:43.023 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 20:19:43.023 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips 
+Oct 15 20:19:43.023 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips
+Oct 15 20:19:43.023 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\c7302201-275b-46c2-8413-7f4632ffdeee 
+Oct 15 20:19:43.023 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\c7302201-275b-46c2-8413-7f4632ffdeee
+Oct 15 20:19:43.023 HYPERVISOR: exec_cmd: vm create CPE13 13 c3745 
+Oct 15 20:19:43.023 VM: VM CPE13 created.
+Oct 15 20:19:43.023 HYPERVISOR: exec_cmd: vm set_con_tcp_port CPE13 5022 
+Oct 15 20:19:43.023 HYPERVISOR: exec_cmd: c3745 get_mac_addr CPE13 
+Oct 15 20:19:43.023 HYPERVISOR: exec_cmd: vm set_disk0 CPE13 4 
+Oct 15 20:19:43.023 HYPERVISOR: exec_cmd: vm set_exec_area CPE13 64 
+Oct 15 20:19:43.023 HYPERVISOR: exec_cmd: vm get_status CPE13 
+Oct 15 20:19:43.023 HYPERVISOR: exec_cmd: vm set_idle_pc CPE13 0x60aa1da0 
+Oct 15 20:19:43.023 HYPERVISOR: exec_cmd: vm set_ios CPE13 C:/Users/serap/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Oct 15 20:19:43.023 HYPERVISOR: exec_cmd: c3745 set_mac_addr CPE13 c40d.4628.0000 
+Oct 15 20:19:43.023 HYPERVISOR: exec_cmd: vm set_nvram CPE13 256 
+Oct 15 20:19:43.023 HYPERVISOR: exec_cmd: vm set_ram CPE13 256 
+Oct 15 20:19:43.023 HYPERVISOR: exec_cmd: vm get_status CPE13 
+Oct 15 20:19:43.023 HYPERVISOR: exec_cmd: vm slot_add_binding CPE13 1 0 NM-16ESW 
+Oct 15 20:19:59.446 HYPERVISOR: exec_cmd: nio create_udp udp-fa04998a-15fe-4cd7-af92-d9a522010b15 10080 127.0.0.1 10081 
+Oct 15 20:20:00.308 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE13 0 0 udp-fa04998a-15fe-4cd7-af92-d9a522010b15 
+Oct 15 20:20:00.308 HYPERVISOR: exec_cmd: vm get_status CPE13 

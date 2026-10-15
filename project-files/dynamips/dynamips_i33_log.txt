@@ -1,0 +1,35 @@
+Oct 15 20:19:34.154 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 15 20:19:34.154 HYPERVISOR: Started on IP = localhost, TCP port = 51196.
+Oct 15 20:19:34.488 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 20:19:34.488 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips 
+Oct 15 20:19:34.493 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips
+Oct 15 20:19:34.493 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\cbf659ae-f783-4cfb-8923-8ce4a75402e2 
+Oct 15 20:19:34.493 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\cbf659ae-f783-4cfb-8923-8ce4a75402e2
+Oct 15 20:19:34.493 HYPERVISOR: exec_cmd: vm create PE11 1 c3745 
+Oct 15 20:19:34.493 VM: VM PE11 created.
+Oct 15 20:19:34.493 HYPERVISOR: exec_cmd: vm set_con_tcp_port PE11 5000 
+Oct 15 20:19:34.493 HYPERVISOR: exec_cmd: c3745 get_mac_addr PE11 
+Oct 15 20:19:34.493 HYPERVISOR: exec_cmd: vm set_disk0 PE11 4 
+Oct 15 20:19:34.501 HYPERVISOR: exec_cmd: vm set_exec_area PE11 64 
+Oct 15 20:19:34.501 HYPERVISOR: exec_cmd: vm get_status PE11 
+Oct 15 20:19:34.501 HYPERVISOR: exec_cmd: vm set_idle_pc PE11 0x60aa1da0 
+Oct 15 20:19:34.501 HYPERVISOR: exec_cmd: vm set_ios PE11 C:/Users/serap/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Oct 15 20:19:34.501 HYPERVISOR: exec_cmd: c3745 set_mac_addr PE11 c401.5e14.0000 
+Oct 15 20:19:34.501 HYPERVISOR: exec_cmd: vm set_nvram PE11 256 
+Oct 15 20:19:34.501 HYPERVISOR: exec_cmd: vm set_ram PE11 192 
+Oct 15 20:19:34.501 HYPERVISOR: exec_cmd: vm get_status PE11 
+Oct 15 20:19:34.501 HYPERVISOR: exec_cmd: vm slot_add_binding PE11 1 0 NM-16ESW 
+Oct 15 20:19:34.501 HYPERVISOR: exec_cmd: vm get_status PE11 
+Oct 15 20:19:34.501 HYPERVISOR: exec_cmd: vm slot_add_binding PE11 2 0 NM-1FE-TX 
+Oct 15 20:19:55.363 HYPERVISOR: exec_cmd: nio create_udp udp-c4ebd417-6337-4fc6-b3bd-3637972863c2 10032 127.0.0.1 10033 
+Oct 15 20:19:55.683 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE11 0 0 udp-c4ebd417-6337-4fc6-b3bd-3637972863c2 
+Oct 15 20:19:55.683 HYPERVISOR: exec_cmd: vm get_status PE11 
+Oct 15 20:19:55.750 HYPERVISOR: exec_cmd: nio create_udp udp-d9ada6bd-57a1-4f54-8a52-768dff7d2a80 10038 127.0.0.1 10039 
+Oct 15 20:19:55.752 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE11 2 0 udp-d9ada6bd-57a1-4f54-8a52-768dff7d2a80 
+Oct 15 20:19:55.752 HYPERVISOR: exec_cmd: vm get_status PE11 
+Oct 15 20:20:02.352 HYPERVISOR: exec_cmd: nio create_udp udp-9392830f-d6bc-4c86-9b9e-4c75c8fb876f 10108 127.0.0.1 10109 
+Oct 15 20:20:02.352 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE11 1 0 udp-9392830f-d6bc-4c86-9b9e-4c75c8fb876f 
+Oct 15 20:20:02.352 HYPERVISOR: exec_cmd: vm get_status PE11 
+Oct 15 20:20:16.686 HYPERVISOR: exec_cmd: nio create_udp udp-136c7afd-3b3d-48b4-9f5e-681a18abdc3a 10222 127.0.0.1 10223 
+Oct 15 20:20:16.690 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE11 0 1 udp-136c7afd-3b3d-48b4-9f5e-681a18abdc3a 
+Oct 15 20:20:16.690 HYPERVISOR: exec_cmd: vm get_status PE11 

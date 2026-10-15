@@ -1,0 +1,24 @@
+Oct 15 20:19:41.967 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 15 20:19:41.967 HYPERVISOR: Started on IP = localhost, TCP port = 51254.
+Oct 15 20:19:42.420 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 20:19:42.420 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips 
+Oct 15 20:19:42.420 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips
+Oct 15 20:19:42.420 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\c15447e3-cdc2-4453-8a9e-dc85d71426f1 
+Oct 15 20:19:42.420 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\c15447e3-cdc2-4453-8a9e-dc85d71426f1
+Oct 15 20:19:42.420 HYPERVISOR: exec_cmd: vm create CPE12 12 c3745 
+Oct 15 20:19:42.420 VM: VM CPE12 created.
+Oct 15 20:19:42.420 HYPERVISOR: exec_cmd: vm set_con_tcp_port CPE12 5021 
+Oct 15 20:19:42.420 HYPERVISOR: exec_cmd: c3745 get_mac_addr CPE12 
+Oct 15 20:19:42.420 HYPERVISOR: exec_cmd: vm set_disk0 CPE12 4 
+Oct 15 20:19:42.424 HYPERVISOR: exec_cmd: vm set_exec_area CPE12 64 
+Oct 15 20:19:42.424 HYPERVISOR: exec_cmd: vm get_status CPE12 
+Oct 15 20:19:42.424 HYPERVISOR: exec_cmd: vm set_idle_pc CPE12 0x60aa1da0 
+Oct 15 20:19:42.424 HYPERVISOR: exec_cmd: vm set_ios CPE12 C:/Users/serap/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Oct 15 20:19:42.424 HYPERVISOR: exec_cmd: c3745 set_mac_addr CPE12 c40c.94ec.0000 
+Oct 15 20:19:42.424 HYPERVISOR: exec_cmd: vm set_nvram CPE12 256 
+Oct 15 20:19:42.424 HYPERVISOR: exec_cmd: vm set_ram CPE12 256 
+Oct 15 20:19:42.424 HYPERVISOR: exec_cmd: vm get_status CPE12 
+Oct 15 20:19:42.424 HYPERVISOR: exec_cmd: vm slot_add_binding CPE12 1 0 NM-16ESW 
+Oct 15 20:19:58.522 HYPERVISOR: exec_cmd: nio create_udp udp-e9494840-5ce3-46d2-b61e-3a1464118a63 10076 127.0.0.1 10077 
+Oct 15 20:19:59.381 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE12 0 0 udp-e9494840-5ce3-46d2-b61e-3a1464118a63 
+Oct 15 20:19:59.381 HYPERVISOR: exec_cmd: vm get_status CPE12 

@@ -1,0 +1,27 @@
+Oct 15 20:19:45.584 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 15 20:19:45.584 HYPERVISOR: Started on IP = localhost, TCP port = 51272.
+Oct 15 20:19:46.037 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 20:19:46.037 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips 
+Oct 15 20:19:46.037 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips
+Oct 15 20:19:46.037 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\cb3cedd5-3b66-41f3-9e3b-62dc078af31b 
+Oct 15 20:19:46.041 GENERAL: working_dir=C:\Users\serap\GNS3\projects\proyecto_atr\project-files\dynamips\cb3cedd5-3b66-41f3-9e3b-62dc078af31b
+Oct 15 20:19:46.041 HYPERVISOR: exec_cmd: vm create PE23 20 c3745 
+Oct 15 20:19:46.041 VM: VM PE23 created.
+Oct 15 20:19:46.041 HYPERVISOR: exec_cmd: vm set_con_tcp_port PE23 5030 
+Oct 15 20:19:46.041 HYPERVISOR: exec_cmd: c3745 get_mac_addr PE23 
+Oct 15 20:19:46.041 HYPERVISOR: exec_cmd: vm set_disk0 PE23 4 
+Oct 15 20:19:46.041 HYPERVISOR: exec_cmd: vm set_exec_area PE23 64 
+Oct 15 20:19:46.041 HYPERVISOR: exec_cmd: vm get_status PE23 
+Oct 15 20:19:46.041 HYPERVISOR: exec_cmd: vm set_idle_pc PE23 0x60aa1da0 
+Oct 15 20:19:46.041 HYPERVISOR: exec_cmd: vm set_ios PE23 C:/Users/serap/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Oct 15 20:19:46.041 HYPERVISOR: exec_cmd: c3745 set_mac_addr PE23 c414.7128.0000 
+Oct 15 20:19:46.041 HYPERVISOR: exec_cmd: vm set_nvram PE23 256 
+Oct 15 20:19:46.041 HYPERVISOR: exec_cmd: vm set_ram PE23 256 
+Oct 15 20:19:46.041 HYPERVISOR: exec_cmd: vm get_status PE23 
+Oct 15 20:19:46.041 HYPERVISOR: exec_cmd: vm slot_add_binding PE23 1 0 NM-16ESW 
+Oct 15 20:20:10.092 HYPERVISOR: exec_cmd: nio create_udp udp-08cd00c9-500a-4dc5-8c39-71bd9971ccb5 10158 127.0.0.1 10159 
+Oct 15 20:20:10.973 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE23 0 0 udp-08cd00c9-500a-4dc5-8c39-71bd9971ccb5 
+Oct 15 20:20:10.973 HYPERVISOR: exec_cmd: vm get_status PE23 
+Oct 15 20:20:11.194 HYPERVISOR: exec_cmd: nio create_udp udp-24fff8f5-2947-4f06-af71-3a8e08c062d3 10168 127.0.0.1 10169 
+Oct 15 20:20:11.197 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE23 0 1 udp-24fff8f5-2947-4f06-af71-3a8e08c062d3 
+Oct 15 20:20:11.198 HYPERVISOR: exec_cmd: vm get_status PE23 
