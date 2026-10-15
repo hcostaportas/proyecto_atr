@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Introducción}{II}{}%
+\contentsline {section}{\numberline {2}Primer contacto}{II}{}%
+\contentsline {subsection}{\numberline {2.1}Configuración de DHCP}{II}{}%
+\contentsline {subsection}{\numberline {2.2}Configuración de OSPF}{II}{}%
+\contentsline {subsection}{\numberline {2.3}Configuración de NAT}{II}{}%
