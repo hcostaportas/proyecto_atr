@@ -1,0 +1,4 @@
+proyecto_atr.gns3project filter=lfs diff=lfs merge=lfs -text
+*.ghost filter=lfs diff=lfs merge=lfs -text
+*.gns3project filter=lfs diff=lfs merge=lfs -text
+*.gns3 filter=lfs diff=lfs merge=lfs -text
